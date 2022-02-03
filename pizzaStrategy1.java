@@ -1,5 +1,5 @@
 
-public class pizzaStrategy1  
+public class pizzaStrategy1 implements PizzaStrategy
 {
 
 	@Override
@@ -12,7 +12,7 @@ public class pizzaStrategy1
 		p.toppings.add("Green Peppers");
 		p.toppings.add("Black Olives");
 
-		p.t.served.add(p);
+		p.table.served.add(p);
 
 		return true;
 	}
